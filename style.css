@@ -1,0 +1,155 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 10px 5px 10px 5px;
+    height: 450px;
+}
+.nav-bar{ /* Header Logo and three links */
+        display: flex;
+        justify-content: space-around;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+a{
+    color: #E5E7EB;
+    text-decoration: none;
+}
+.link{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    display: inline;
+    padding: 8px;
+}
+.header-content{  /* Contains the header on left and photo on right */
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+.left-para{
+    width: 400px;
+    height: 300px;
+    padding: 15px;   
+}
+.image{
+    margin-top: 50px;
+}
+
+.heading{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.signup{
+    color: #F9FAF8;
+    background-color: #3882f6;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: 0px;
+}
+.random-info{
+    text-align: center;
+    height: 300px;
+    margin-bottom: 40px;
+}
+
+.title{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    
+}
+.items{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+#placeholder{
+    width:125px;
+    height:125px;
+    border:5px solid #3882f6;
+    border-radius: 10px;
+    text-align: center
+}
+.item p{
+    font-size: 12px;
+    color: #3b3b3b;
+    width: 125px;
+
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote{
+    font-style: italic;
+    height: 350px;
+    background-color: #c1bfbf;
+    color: #1f1e1e;
+    font-weight: 300;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+blockquote{
+    width: 600px;
+    
+}
+cite{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 150px;
+}
+.last-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+.calltoaction{
+    width: 800px;
+    height: 125px;
+    background: #3882f6;
+    border-radius: 16px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.calltoaction {
+     color: #F9FAF8;
+}
+.calltoaction h4{
+    margin:0;
+    margin-bottom: 5px;
+}
+.calltoaction .signup{
+    background: transparent;
+    border: 2px solid #F9FAF8;
+    padding: 8px 20px;
+}
+.footer{
+    background: #1f2937;
+    color: #F9FAF8;
+    padding: 10px;
+    text-align: center;
+}
